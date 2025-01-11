@@ -1,4 +1,14 @@
- .header{
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
     width: 1440px;
     display: flex;
     flex-direction: column;
@@ -88,3 +98,438 @@ button {
     cursor: pointer;
 }
 
+
+
+.footer{
+    width: 1440px;
+    height: 585px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.top-footer{
+    width: 1440px;
+    height: 97px;
+    display: flex;
+    background: rgb(111, 115, 238);;
+}
+
+h3{
+width: 445px;
+height: 52px;
+color: rgb(255, 255, 255);
+font-family: Jost;
+font-size: 18px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+position: absolute;
+left: 165px;
+top: 24px;
+}
+ .top-footer p{
+    /* Frame 1708 (Component 14) */
+position: absolute;
+width: 410px;
+height: 53px;
+left: 705px;
+top: 23px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 10;
+padding: 15px 25px 15px 25px;
+border-radius: 5px;
+color: white;
+background: rgba(255, 255, 255, 0.2);
+
+}
+button{
+position: absolute;
+width: 140px;
+height: 53px;
+left: 73.80%;
+right: 11.46%;
+top: 2.99%;
+bottom: 87.0%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 15px 25px 15px 25px;
+border-radius: 5px;
+border: none;
+
+}
+/* ----------------------------------2---------------------------------------------------------------- */
+.catalog{
+position: absolute;
+width: 130px;
+height: 153px;
+left: 11.46%;
+right: 79.51%;
+top: 24.44%;
+bottom: 49.4%;
+}
+.text{
+
+/* Frame 11 (Component 14) */
+position: relative;
+width: 126px;
+height: 110px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 10;
+padding: 0px;
+
+
+}
+
+.text p {
+    /* Электросамокаты (Component 14) */
+position: static;
+width: 106px;
+height: 20px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 10;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+/* 14 px (regular) */
+color: rgb(93, 108, 123);
+font-family: Jost;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.catalog h4 {
+/* position: absolute; */
+width: 130px;
+height: 26px;
+left: 165px;
+top: 143px;
+color: rgb(40, 39, 57);
+font-family: Jost;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+/* --------------------------------3------------------------------- */
+.box {
+position: absolute;
+width: 106px;
+height: 26px;
+left: 420px;
+top: 177px;
+}
+.box h4{
+color: rgb(40, 39, 57);
+font-family: Jost;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.text2{
+position: relative;
+width: 112px;
+height: 110px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 10;
+padding: 0px;
+
+    }
+    
+.text2 p{
+position: static;
+width: 110px;
+height: 20px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 10;
+padding: 0px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+
+color: rgb(93, 108, 123);
+font-family: Jost;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+/* ---------------------------------------------------------------------- */
+
+.text3 {
+
+position: absolute;
+width: 106px;
+height: 26px;
+right: 850px;
+top: 220px;
+}
+.text3 p {
+    /* Сотрудничество (Component 14) */
+position: static;
+width: 98px;
+height: 20px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 20px;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 10px 0px;
+/* 14 px (regular) */
+color: rgb(93, 108, 123);
+font-family: Jost;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+/* ------------------------------------------------------------------------------------------------ */
+
+.contact{
+ /* Контакты (Component 14) */
+position: absolute;
+width: 73px;
+height: 26px;
+left: 784px;
+top: 180px;
+}
+.contact h4{
+    color: rgb(40, 39, 57);
+font-family: Jost;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.call{
+
+position: absolute;
+width: 52px;
+height: 17px;
+left: 784px;
+top: 220px;
+}
+.call1{
+
+position: absolute;
+width: 94px;
+height: 17px;
+left: 966px;
+top: 220px;
+    }
+    .call1 p{
+        /* 12 px (regular) */
+  
+color: rgb(40, 39, 57);
+font-family: Jost;
+font-size: 12px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+    }
+.call p{
+    /* 12 px (regular) */
+color: rgb(40, 39, 57);
+font-family: Jost;
+font-size: 12px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+}
+.number h4 {
+color: rgb(40, 39, 57);
+font-family: Jost;
+font-size: 16px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: left;
+}
+.number {
+    /* +7 (800) 505-54-61 (Component 14) */
+position: absolute;
+width: 142px;
+height: 23px;
+left: 4px;
+top: 25px;
+}
+.number1{
+position: absolute;
+width: 107px;
+height: 17px;
+left: 84px;
+top: 38px;
+}
+.market{
+ 
+position: absolute;
+top: 320px;
+left: 790px;
+width: 132px;
+height: 61px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 8;
+padding: 0px;
+}
+.market p{
+    /* Магазин в Москве ул. Ткацкая, 5 стр. 16 (Component 14) */
+position: static;
+width: 132px;
+height: 36px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 8;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+color: rgb(40, 39, 57);
+font-family: Jost;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.number1 {
+position: absolute;
+width: 107px;
+height: 17px;
+left: 4px;
+top: 58px;
+}
+.content p {
+
+color: rgb(9, 8, 14);
+font-family: Jost;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+.number2{
+
+position: absolute;
+width: 142px;
+height: 23px;
+left: 4px;
+top: 25px;
+}
+.number2 h4{
+    /* 16 px (medium) */
+color: rgb(8, 8, 12);
+font-family: Jost;
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: left;
+}
+.number3 {
+    position: absolute;
+    width: 107px;
+    height: 17px;
+    left: 4px;
+    top: 58px;
+    }
+
+.market1 {
+    
+position: absolute;
+top: 320px;
+left: 970px;
+width: 132px;
+height: 61px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 8;
+padding: 0px;
+width: 114px;
+height: 54px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+
+
+
+
+
+
+
+
+
+}
+.market1 p {
+
+color: rgb(40, 39, 57);
+font-family: Jost;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+
+
+}

@@ -15,13 +15,14 @@
     justify-content: center;
     align-items: center;
     background-color: beige;
+    margin: 0 auto;
 }
 
 .essens-header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 20px;
+    gap: 60px;
 }
 
 .header-left {
@@ -67,7 +68,8 @@ button {
  
     justify-content:center;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
+    /* position: relative; */
 }
 
 .main-left {
@@ -79,6 +81,10 @@ button {
     line-height: 23px;
     letter-spacing: 0%;
     text-align: left;
+    /* margin-top: 20px;
+    margin-left: -360px; */
+    /* position: absolute; */
+
 }
 
 .main-right {
@@ -90,6 +96,7 @@ button {
     line-height: 23px;
     letter-spacing: 0%;
     text-align: left;
+    /* margin-right: -250px; */
 } 
 
 .main-right img {
@@ -105,7 +112,10 @@ button {
     height: 585px;
     border: 1px solid black;
     margin: 0 auto;
+    position: relative;
+    top: 500px;
 }
+
 
 .top-footer{
     width: 1440px;
@@ -147,13 +157,13 @@ color: white;
 background: rgba(255, 255, 255, 0.2);
 
 }
-button{
+.btn button{
 position: absolute;
 width: 140px;
 height: 53px;
-left: 73.80%;
-right: 11.46%;
-top: 2.99%;
+left: 79.80%;
+right: 10.46%;
+top: 3.90%;
 bottom: 87.0%;
 display: flex;
 flex-direction: row;
@@ -163,6 +173,8 @@ gap: 10;
 padding: 15px 25px 15px 25px;
 border-radius: 5px;
 border: none;
+background: white;
+color: black;
 
 }
 /* ----------------------------------2---------------------------------------------------------------- */
@@ -240,7 +252,7 @@ position: absolute;
 width: 106px;
 height: 26px;
 left: 420px;
-top: 177px;
+top: 142px;
 }
 .box h4{
 color: rgb(40, 39, 57);
@@ -295,8 +307,9 @@ text-align: left;
 position: absolute;
 width: 106px;
 height: 26px;
-right: 850px;
-top: 220px;
+
+right: 780px;
+    top: 200px;
 }
 .text3 p {
     /* Сотрудничество (Component 14) */
@@ -334,7 +347,7 @@ position: absolute;
 width: 73px;
 height: 26px;
 left: 784px;
-top: 180px;
+top: 142px;
 }
 .contact h4{
     color: rgb(40, 39, 57);
@@ -351,7 +364,7 @@ position: absolute;
 width: 52px;
 height: 17px;
 left: 784px;
-top: 220px;
+top: 180px;
 }
 .call1{
 
@@ -464,7 +477,6 @@ line-height: 20px;
 letter-spacing: 0%;
 text-align: left;
 }
-
 
 .number2{
 

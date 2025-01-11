@@ -1,0 +1,90 @@
+ .header{
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+.essens-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-left {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    /* color: rgb(37, 36, 34); */
+    color: rgb(180, 140, 80);
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.header-right {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(37, 36, 34);
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    font-weight: 200px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+/* ----- */
+
+ .essens-main {
+    display: flex;
+ 
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-left {
+    display: flex;
+    gap: 20px;
+    color: rgb(37, 36, 34);
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.main-right {
+    display: flex;
+    gap: 20px;
+    color: rgb(37, 36, 34);
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+} 
+
+.main-right img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
